@@ -20,7 +20,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore jonas.darts/jonas.darts.backend/jonas.darts.backend.sln
+      run: dotnet restore jonas.darts.backend/jonas.darts.backend.sln
 
     - name: Build solution
       run: dotnet build jonas.darts.backend.sln --no-restore --configuration Release
