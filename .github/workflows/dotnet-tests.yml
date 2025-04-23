@@ -37,8 +37,8 @@ jobs:
     - name: Generate coverage report
       run: |
         reportgenerator \
-          -reports:"**/TestResults/**/coverage.cobertura.xml" \
-          -targetdir:"coverage-report" \
+          -reports:"./Jonas.Darts.Backend/**/TestResults/**/coverage.cobertura.xml" \
+          -targetdir:"./Jonas.Darts.Backend/coverage-report" \
           -reporttypes:Html
 
     - name: Upload coverage report
