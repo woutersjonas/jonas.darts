@@ -62,11 +62,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
+      "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
       "projectName": "Jonas.Darts.Domain",
-      "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
+      "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
       "packagesPath": "C:\\Users\\JonasWouters\\.nuget\\packages\\",
-      "outputPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\obj\\",
+      "outputPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

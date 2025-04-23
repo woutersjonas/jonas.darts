@@ -10,3 +10,16 @@ C:\Jonas\JonasWouters_Prive\Darts\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Dart
 C:\Jonas\JonasWouters_Prive\Darts\Jonas.Darts.Domain\obj\Debug\net8.0\refint\Jonas.Darts.Domain.dll
 C:\Jonas\JonasWouters_Prive\Darts\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.pdb
 C:\Jonas\JonasWouters_Prive\Darts\Jonas.Darts.Domain\obj\Debug\net8.0\ref\Jonas.Darts.Domain.dll
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\bin\Debug\net8.0\Jonas.Darts.Domain.deps.json
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\bin\Debug\net8.0\Jonas.Darts.Domain.dll
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\bin\Debug\net8.0\Jonas.Darts.Domain.pdb
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.csproj.AssemblyReference.cache
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.AssemblyInfoInputs.cache
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.AssemblyInfo.cs
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.csproj.CoreCompileInputs.cache
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.sourcelink.json
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.dll
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\refint\Jonas.Darts.Domain.dll
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\Jonas.Darts.Domain.pdb
+C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Domain\obj\Debug\net8.0\ref\Jonas.Darts.Domain.dll

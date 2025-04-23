@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jonas.Darts.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e88b6806f96ae2584ec363451c361e5a7b40922")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jonas.Darts.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jonas.Darts.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

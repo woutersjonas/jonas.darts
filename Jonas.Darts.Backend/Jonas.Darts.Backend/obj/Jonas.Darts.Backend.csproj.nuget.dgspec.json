@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj": {}
+    "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj": {}
   },
   "projects": {
-    "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj": {
+    "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj",
+        "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj",
         "projectName": "Jonas.Darts.Backend",
-        "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj",
+        "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend\\Jonas.Darts.Backend.csproj",
         "packagesPath": "C:\\Users\\JonasWouters\\.nuget\\packages\\",
-        "outputPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\obj\\",
+        "outputPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj": {
-                "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj"
+              "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj": {
+                "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj"
               },
-              "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj": {
-                "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj"
+              "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj": {
+                "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj": {
+    "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj",
+        "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj",
         "projectName": "Jonas.Darts.Data",
-        "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj",
+        "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj",
         "packagesPath": "C:\\Users\\JonasWouters\\.nuget\\packages\\",
-        "outputPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\obj\\",
+        "outputPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -136,8 +136,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj": {
-                "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj"
+              "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj": {
+                "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj"
               }
             }
           }
@@ -188,14 +188,14 @@
         }
       }
     },
-    "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj": {
+    "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
+        "projectUniqueName": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
         "projectName": "Jonas.Darts.Domain",
-        "projectPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
+        "projectPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
         "packagesPath": "C:\\Users\\JonasWouters\\.nuget\\packages\\",
-        "outputPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\obj\\",
+        "outputPath": "C:\\Jonas\\JonasWouters_Prive\\jonas.darts\\Jonas.Darts.Backend\\Jonas.Darts.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Backend", "Jonas.Darts.Backend.csproj", "{6318F2FA-C976-41F7-996B-AF643982FC20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Backend", ".\Jonas.Darts.Backend\Jonas.Darts.Backend.csproj", "{6318F2FA-C976-41F7-996B-AF643982FC20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Test", "..\Jonas.Darts.Test\Jonas.Darts.Test.csproj", "{179489EF-2AAE-461B-8471-EEC897F59915}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Test", ".\Jonas.Darts.Test\Jonas.Darts.Test.csproj", "{179489EF-2AAE-461B-8471-EEC897F59915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Domain", "..\Jonas.Darts.Domain\Jonas.Darts.Domain.csproj", "{C7A14BF1-F7D1-4E78-8922-3E4BF24942FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Domain", ".\Jonas.Darts.Domain\Jonas.Darts.Domain.csproj", "{C7A14BF1-F7D1-4E78-8922-3E4BF24942FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Data", "..\Jonas.Darts.Data\Jonas.Darts.Data.csproj", "{143D07F4-1D7B-49B5-9F7D-242A3519AAF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jonas.Darts.Data", ".\Jonas.Darts.Data\Jonas.Darts.Data.csproj", "{143D07F4-1D7B-49B5-9F7D-242A3519AAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
