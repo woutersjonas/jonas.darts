@@ -20,16 +20,13 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
-      working-directory: ./jonas.darts.backend
+      run: dotnet restore Jonas.Darts.Backend.sln
 
     - name: Build solution
-      run: dotnet build --no-restore --configuration Release
-      working-directory: ./jonas.darts.backend
+      run: dotnet build Jonas.Darts.Backend.sln --no-restore --configuration Release
 
     - name: Run tests with coverage
-      run: dotnet test --no-build --configuration Release --collect:"XPlat Code Coverage"
-      working-directory: ./jonas.darts.backend
+      run: dotnet test Jonas.Darts.Backend.sln --no-build --configuration Release --collect:"XPlat Code Coverage"
 
     - name: Install ReportGenerator
       run: dotnet tool install --global dotnet-reportgenerator-globaltool
@@ -37,7 +34,7 @@ jobs:
     - name: Generate coverage report
       run: |
         reportgenerator \
-          -reports:"jonas.darts.backend/jonas.darts.backend/**/TestResults/**/coverage.cobertura.xml" \
+          -reports:"**/TestResults/**/coverage.cobertura.xml" \
           -targetdir:"coverage-report" \
           -reporttypes:Html
 
