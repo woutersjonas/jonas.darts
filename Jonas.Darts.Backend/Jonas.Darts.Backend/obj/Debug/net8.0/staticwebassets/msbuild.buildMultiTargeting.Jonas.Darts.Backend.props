@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Jonas.Darts.Backend.props" />
+</Project>

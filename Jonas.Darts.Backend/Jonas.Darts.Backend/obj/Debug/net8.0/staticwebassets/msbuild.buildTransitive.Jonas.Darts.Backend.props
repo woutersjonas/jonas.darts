@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Jonas.Darts.Backend.props" />
+</Project>

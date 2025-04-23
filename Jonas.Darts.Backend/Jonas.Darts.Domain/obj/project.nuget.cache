@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qKateHl2FGs=",
+  "success": true,
+  "projectFilePath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JonasWouters\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

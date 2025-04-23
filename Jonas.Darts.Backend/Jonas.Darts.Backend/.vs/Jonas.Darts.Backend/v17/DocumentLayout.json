@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{179489EF-2AAE-461B-8471-EEC897F59915}|..\\Jonas.Darts.Test\\Jonas.Darts.Test.csproj|c:\\jonas\\jonaswouters_prive\\darts\\jonas.darts.test\\jonas.darts.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179489EF-2AAE-461B-8471-EEC897F59915}|..\\Jonas.Darts.Test\\Jonas.Darts.Test.csproj|c:\\jonas\\jonaswouters_prive\\darts\\jonas.darts.test\\controllers_authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318F2FA-C976-41F7-996B-AF643982FC20}|Jonas.Darts.Backend.csproj|c:\\jonas\\jonaswouters_prive\\darts\\jonas.darts.backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318F2FA-C976-41F7-996B-AF643982FC20}|Jonas.Darts.Backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7A14BF1-F7D1-4E78-8922-3E4BF24942FB}|..\\Jonas.Darts.Domain\\Jonas.Darts.Domain.csproj|c:\\jonas\\jonaswouters_prive\\darts\\jonas.darts.domain\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318F2FA-C976-41F7-996B-AF643982FC20}|Jonas.Darts.Backend.csproj|c:\\jonas\\jonaswouters_prive\\darts\\jonas.darts.backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318F2FA-C976-41F7-996B-AF643982FC20}|Jonas.Darts.Backend.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143D07F4-1D7B-49B5-9F7D-242A3519AAF6}|..\\Jonas.Darts.Data\\Jonas.Darts.Data.csproj|c:\\jonas\\jonaswouters_prive\\darts\\jonas.darts.data\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 603,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 603,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Jonas.Darts.Test",
+              "DocumentMoniker": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Test\\Jonas.Darts.Test.csproj",
+              "RelativeDocumentMoniker": "..\\Jonas.Darts.Test\\Jonas.Darts.Test.csproj",
+              "ToolTip": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Test\\Jonas.Darts.Test.csproj",
+              "RelativeToolTip": "..\\Jonas.Darts.Test\\Jonas.Darts.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-23T09:37:17.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\Jonas.Darts.Domain\\DTOs\\LoginResponse.cs",
+              "ToolTip": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Domain\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "..\\Jonas.Darts.Domain\\DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:31:57.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:30:21.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controllers_authControllerTests.cs",
+              "DocumentMoniker": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Test\\Controllers_authControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\Jonas.Darts.Test\\Controllers_authControllerTests.cs",
+              "ToolTip": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Test\\Controllers_authControllerTests.cs",
+              "RelativeToolTip": "..\\Jonas.Darts.Test\\Controllers_authControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:05:18.444Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 603,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\Jonas.Darts.Data\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Data\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "..\\Jonas.Darts.Data\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:49:27.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Jonas\\JonasWouters_Prive\\Darts\\Jonas.Darts.Backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:47:35.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
