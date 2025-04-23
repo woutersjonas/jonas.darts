@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Jonas.Darts.Data
-build_property.ProjectDir = C:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Data\
+build_property.ProjectDir = c:\Jonas\JonasWouters_Prive\jonas.darts\Jonas.Darts.Backend\Jonas.Darts.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
