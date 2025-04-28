@@ -28,7 +28,7 @@ jobs:
         working-directory: ./Jonas.Darts.Backend
 
       - name: Run tests and collect coverage
-        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" --results-directory ./TestResults --logger "trx;LogFileName=TestResults.trx" --settings ./coverlet.runsettings
+        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" --results-directory ./TestResults --logger "trx;LogFileName=TestResults.trx"
         working-directory: ./Jonas.Darts.Backend
 
       - name: Upload code coverage results to GitHub Pages
