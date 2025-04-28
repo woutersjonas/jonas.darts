@@ -39,4 +39,4 @@ jobs:
         uses: actions/upload-artifact@v4.6.2
         with:
           name: code-coverage-results
-          path: ./Jonas.Darts.Backend/TestResults/coverage.cobertura.xml
+          path: ./Jonas.Darts.Backend/TestResults/**/*.cobertura.xml
