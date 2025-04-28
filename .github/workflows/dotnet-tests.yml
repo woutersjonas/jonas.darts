@@ -29,7 +29,7 @@ jobs:
         run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" --results-directory ./TestResults --logger "trx;LogFileName=TestResults.trx" --settings ./coverlet.runsettings
 
       - name: Upload code coverage results to GitHub Pages
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: code-coverage-results
           path: ./TestResults
