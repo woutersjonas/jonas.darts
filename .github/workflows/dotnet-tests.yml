@@ -21,12 +21,15 @@ jobs:
 
       - name: Install dependencies
         run: dotnet restore
+        working-directory: ./Jonas.Darts.Backend
 
       - name: Build project
         run: dotnet build --configuration Release --no-restore
+        working-directory: ./Jonas.Darts.Backend
 
       - name: Run tests and collect coverage
         run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" --results-directory ./TestResults --logger "trx;LogFileName=TestResults.trx" --settings ./coverlet.runsettings
+        working-directory: ./Jonas.Darts.Backend
 
       - name: Upload code coverage results to GitHub Pages
         uses: actions/upload-artifact@v4.6.2
