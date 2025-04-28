@@ -1,70 +1,35 @@
-name: .NET Build & Test Coverage
+name: .NET Build & deploy Test Coverage with XPlat Code Coverage results to github pages on push and PR to main branch
 
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, dev ]
+    branches: [ main ]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '7.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore Jonas.Darts.Backend.sln
-      working-directory: ./Jonas.Darts.Backend
+      - name: Install dependencies
+        run: dotnet restore
 
-    - name: Build solution
-      run: dotnet build Jonas.Darts.Backend.sln --no-restore --configuration Release
-      working-directory: ./Jonas.Darts.Backend
+      - name: Build project
+        run: dotnet build --configuration Release --no-restore
 
-    - name: Run tests with coverage
-      run: dotnet test Jonas.Darts.Backend.sln --no-build --configuration Release --collect:"XPlat Code Coverage"
-      working-directory: ./Jonas.Darts.Backend
+      - name: Run tests and collect coverage
+        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" --results-directory ./TestResults --logger "trx;LogFileName=TestResults.trx" --settings ./coverlet.runsettings
 
-    - name: Install ReportGenerator
-      run: dotnet tool install --global dotnet-reportgenerator-globaltool
-
-    - name: Generate coverage report
-      run: |
-        reportgenerator \
-          -reports:"./Jonas.Darts.Backend/**/TestResults/**/coverage.cobertura.xml" \
-          -targetdir:"./Jonas.Darts.Backend/coverage-report" \
-          -reporttypes:Html
-
-    - name: Upload coverage artifact
-      uses: actions/upload-artifact@v4.6.2
-      with:
-        name: coverage-report
-        path: ./Jonas.Darts.Backend/coverage-report
-
-  deploy-pages:
-    needs: build-and-test
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Download coverage artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: coverage-report
-        path: coverage-report
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./coverage-report
-        publish_branch: gh-pages
+      - name: Upload code coverage results to GitHub Pages
+        uses: actions/upload-artifact@v2
+        with:
+          name: code-coverage-results
+      

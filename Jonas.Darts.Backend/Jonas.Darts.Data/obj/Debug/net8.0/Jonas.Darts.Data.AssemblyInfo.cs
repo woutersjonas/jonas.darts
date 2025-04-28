@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jonas.Darts.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38d3c76345cffb784e2f74511de43fe811a4fe9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0814649f466e203d5f4502067dbf9580ec8a2af2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jonas.Darts.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jonas.Darts.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
